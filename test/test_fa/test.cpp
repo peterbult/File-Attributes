@@ -3,6 +3,7 @@
 #include <iostream>
 #include <sys/types.h>
 #include <sys/xattr.h>
+#include <cstring>
 #include <CustomTools/Convert.h>
 
 bool has_attribute( std::string filename, std::string attribute, size_t bit_limit=1024 )

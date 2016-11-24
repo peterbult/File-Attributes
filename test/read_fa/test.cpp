@@ -1,8 +1,8 @@
 
-
 #include <iostream>
 #include <sys/types.h>
 #include <sys/xattr.h>
+#include <cstring>
 #include <CustomTools/Convert.h>
 
 template <class T>

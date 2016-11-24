@@ -13,6 +13,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/xattr.h>
+#include <cstring>
 #include <CustomTools/Convert.h>
 
 namespace {
